@@ -578,6 +578,7 @@ function SVN_PLUGIN:CreateDialog(Caption,action,FileList,comment_needed,diffallo
 			local comment=textCtrl:GetValue():gsub("^%s+",""):gsub("%s+$","")
 			printf("comment is %s\n",vis(comment))
 			cmd = "svn "..action..' -m '..quoteshell(comment)..' '..selected_filenames
+			push(self.SvnLogComments,comment)
 		else
 			cmd = "svn "..action..' '..selected_filenames
 		end
