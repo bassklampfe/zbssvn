@@ -5,8 +5,7 @@ This package adds subversion support to ZeroBrane Studio (ZBS)
 ---
 
 **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE**  
-**NOTE** this is currently WorkInProgress !  
-**NOTE** this note will be removed as soon as zbssvn is commited in a useable state.   
+**NOTE** this is still WorkInProgress !  
 **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE** **NOTE**  
 
 ---
@@ -39,7 +38,7 @@ Next you have install zbssvn at the right place:
 
 * Then (on commandline) check out the package [3]  
       ```  
-      svn co https://github.com/Minebea-Intec/zbssvn.git/trunk zbssvn  
+      git clone https://github.com/bassklampfe/zbssvn.git
       ```  
       => you should now have a folder "zbssvn" in "packages"
 
